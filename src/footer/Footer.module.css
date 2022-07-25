@@ -1,0 +1,160 @@
+.footerback{
+    background-color: #ffff;
+    margin-top: 220px;
+     height: 500px;
+     width: 100%;
+     
+     
+}
+
+.footerflex{
+    display: flex;
+    gap: 160px;
+   
+}
+
+.footerflex1{
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerheader{
+    padding-bottom: 47px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.footerhead{
+    padding-bottom: 11px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
+.footerheaderP > p{
+    padding-top: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.footeremail{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    border-bottom:  1px solid;
+    padding-bottom: 14px;
+    width: 416px;
+   
+}
+
+
+
+.logo21 {
+    padding-left: 14px;
+}
+
+.logo22{
+  padding-left: 294px; 
+}
+
+.footerendflex{
+    display: flex;
+    gap: 167px;
+    padding-top: 173px;
+}
+
+
+.footerendterm{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .footerback{
+        width: 1200px;
+        padding-left: 35px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+    .footerback{
+        width: 1200px;
+        height: 1590px;
+        padding-left: 35px;
+    }
+   
+    .footerflex{
+        display: block;
+    }
+
+    .footerflex1{
+        display: block;
+    }
+
+    .footerheader{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    .footerheaderP > p{
+        font-size: 56px;
+        line-height: 1.6;
+    }
+
+    .logo21{
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo21{
+        width: 45px;
+        height: 45px;
+    }
+
+    
+
+    .footerhead{
+        font-size: 40px;
+        padding-top: 66px;
+        /* padding-bottom: 60px; */
+    }
+
+
+    .footeremail{
+        font-size: 56px;
+        width: 700px;
+        padding: 50px 0px;
+       
+    }
+
+    .footerendterm{
+        font-size: 45px;
+    }
+    
+}

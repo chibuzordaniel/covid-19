@@ -1,0 +1,490 @@
+.logoflex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+
+.logo2{}
+
+.logo3{
+  padding-left: 50px;
+
+ 
+}
+
+.logo4{
+   padding-top: 40px;
+   padding-left: 20px;
+   position: fixed;
+  
+  
+  
+}
+
+.covid19{
+    padding-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.covidback2{
+    background-color: #ffff;
+    width: 1200px;
+    height: 230px;
+    margin-top: 40px;
+}
+
+.covidflez3{
+    margin-top: 39px;
+    margin-left: 27px;
+    width: 260px;
+    height: 143px;
+    background: rgba(43, 111, 243, 0.05);
+    border-radius: 5px;
+}
+
+
+
+.covidflez4{
+    margin-left: 35px;
+    margin-top: 39px;
+    width: 260px;
+    height: 143px;
+    background: rgba(243, 153, 17, 0.05);
+    border-radius: 5px;
+}
+
+
+.covidflez5{
+    margin-left: 35px;
+    margin-top: 39px;
+    width: 260px;
+    height: 143px;
+    background: rgba(22, 180, 66, 0.05);
+    border-radius: 5px;
+}
+
+.covidflez6{
+    margin-left: 35px;
+    margin-top: 39px;
+    width: 260px;
+    height: 143px;
+    background: rgba(214, 50, 50, 0.05);
+    border-radius: 5px;
+}
+
+
+
+
+.covidflexbox{
+    display: flex;
+    
+}
+
+.covidflexbox2{
+    width: 200px;
+    height: 200px;
+    background: rgba(43, 111, 243, 0.05);
+    border-radius: 999px;
+    padding-top: 27px;
+    position: relative;
+    left: 30px;
+    bottom: 27px;
+
+ }
+
+
+ .covidflexbox3{
+    width: 200px;
+    height: 200px;
+    background: rgba(243, 153, 17, 0.05);
+    border-radius: 999px;
+    padding-top: 27px;
+    position: relative;
+    left: 30px;
+    bottom: 27px;
+
+ }
+
+ .covidflexbox4{
+    width: 200px;
+    height: 200px;
+    background: rgba(22, 180, 66, 0.05);
+    border-radius: 999px;
+    padding-top: 27px;
+    position: relative;
+    left: 30px;
+    bottom: 27px;
+
+ }
+
+
+ .covidflexbox5{
+    width: 200px;
+    height: 200px;
+    background: rgba(170, 42, 42, 0.05);
+    border-radius: 999px;
+    padding-top: 27px;
+    position: relative;
+    left: 30px;
+    bottom: 27px;
+
+ }
+
+ .logo5{
+    position: relative;
+    bottom: 155px;
+    left: 27px;
+  
+}
+
+
+.logo6{
+    position: relative;
+    bottom: 155px;
+    left: 27px;
+  
+}
+
+.logo7{
+    position: relative;
+    bottom: 155px;
+    left: 27px;
+}
+
+.logo8{
+    position: relative;
+    bottom: 155px;
+    left: 27px;
+}
+
+.covidactive{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.covidnumb1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #2B6FF3;
+}
+
+
+
+.covidnumb2{
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.covidnumb3{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #F39911;
+}
+
+.covidnumb4{
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.covidnumb5{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+     color: #16B442;
+}
+
+
+.covidnumb6{
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.covidnumb7{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #D63232;
+}
+
+.covidnumb8{
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1100px) {
+    
+    .logo2{
+        display: none;
+    }
+
+    .logo3{
+        display: none;
+    }
+
+
+    .logo4{
+        display: none;
+    }
+}
+
+
+@media screen  and ( max-width: 768px) {
+    
+    .covidDrop{
+        margin-top: 240px;
+    }
+
+
+    .logo2{
+        display: none;
+    }
+
+    .logo3{
+        display: none;
+    }
+
+
+    .logo4{
+        display: none;
+    }
+    .covid19{
+        padding-left: 35px;
+        font-size: 50px;
+        width: 500px;
+        
+    }
+
+
+    .covidflexbox{
+        display: block;
+        margin-left: 20px;
+       
+    }
+
+    .covidback2{
+        width: 1129px;
+        height: 2339px;
+        margin-left: 35px;
+    }
+
+
+    .covidflez3{
+        position: relative;
+        top: 140px;
+        width: 1034px;
+        height: 320px;
+    }
+
+    
+    .covidflez4{
+        position: relative;
+        top: 370px;
+        width: 1034px;
+        height: 320px;
+    }
+
+    
+    .covidflez5{
+        position: relative;
+        top: 580px;
+        width: 1034px;
+        height: 320px;
+    }
+
+    
+    .covidflez6{
+        position: relative;
+        top: 780px;
+        width: 1034px;
+        height: 320px;
+    }
+
+
+    .covidflexbox2{
+       position: relative;
+        left: 250px;
+        bottom: 90px;
+        width: 500px;
+        height: 500px;
+        padding-top: 130px;
+        font-size: 60px;
+    }
+
+    .covidflexbox3{
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        width: 500px;
+        height: 500px;
+        padding-top: 130px;
+        font-size: 60px;
+    }
+
+
+    .covidflexbox4{
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        width: 500px;
+        height: 500px;
+        padding-top: 130px;
+        font-size: 60px;
+    }
+
+    .covidflexbox5{
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        width: 500px;
+        height: 500px;
+        padding-top: 130px;
+        font-size: 60px;
+    }
+
+    
+    .covidactive{
+        font-size: 50px;
+    }
+
+    .covidnumb1{
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+
+    .covidnumb2{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .covidnumb3{
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+    .covidnumb4{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+
+    .covidnumb5{
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+
+    .covidnumb6{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+
+    .covidnumb7{
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+
+    .covidnumb8{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 290px){
+
+    .covidback2{
+        width: 372%;
+        height: 2339px;
+        margin-left: 35px;
+    }
+
+
+    .covidflez3{
+     
+        width: 90%;
+       
+    }
+
+
+    .covidflez4{
+      
+        width: 90%;
+    
+    }
+
+    .covidflez5{
+    
+        width: 90%;
+        
+    }
+
+    .covidflez6{
+        width: 90%;
+      
+    }
+
+
+    .covidflexbox2{
+        position: relative;
+        left: 190px;
+        width: 55%;
+    }
+
+    .covidflexbox3{
+        position: relative;
+        left: 190px;
+        width: 55%;
+    }
+
+    .covidflexbox4{
+        position: relative;
+        left: 190px;
+        width: 55%;
+    }
+
+
+    .covidflexbox5{
+        position: relative;
+        left: 190px;
+        width: 55%;
+    }
+
+
+}
+

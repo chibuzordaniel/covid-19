@@ -1,0 +1,155 @@
+
+.covidprotectback{
+    padding-top: 87px;
+    width: 1200px;
+    height: 850px;
+    background-color: #ffff;
+    margin-top: 120px;
+}
+
+
+.covidprotectflex1{
+    display: flex;
+}
+
+.covidprotect2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    padding-left: 60px;
+}
+
+.covidprotect3{
+    padding-top: 8px;
+    padding-left: 60px; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 193.6%;
+    color: #5F6368;
+}
+
+.covidprotect4{
+    padding-top: 20px;
+    padding-left: 60px; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+.covidprotect5{
+    color: #16B442;
+}
+
+.covidprotectborder1{
+    width: 154px;
+    height: 151px;
+    background: #FFFFFF;
+    border: 1px solid #F1F4FA;
+    border-radius: 5px;
+
+}
+
+.covidprotectborderflex{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 60px;
+    gap: 32px;
+}
+
+.covidprotectborderflex2{
+    margin-top: 31px;
+    display: flex;
+    padding-left: 60px;
+    gap: 32px;
+}
+
+.covidwear1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.logo14{
+    padding-top: 11px;
+   padding-left: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .covidprotectback{
+        width: 1129px;
+        height: 1929px;
+        margin-left: 35px;
+    }
+
+    
+    .covidprotectflex1{
+        display: block;
+    }
+
+    .logo13{
+        text-align: center;
+
+    }
+
+    .covidprotect2{
+        font-size: 66px;
+        line-height: 1.3;
+        padding-top: 30px;
+    }
+
+    .covidprotect3{
+        font-size: 30px;
+    }
+
+    .covidprotect4{
+        font-size: 45px;
+    }
+
+    .covidprotectborder1{
+        width: 320px;
+        height: 220px;
+        text-align: center;
+    }
+
+    .logo14{
+        width: 130px;
+        height: 120px;
+    }
+
+
+    .covidwear1{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 290px){
+
+    
+    .covidprotectback{
+        width: 370%;
+        height: 2250px;
+    }
+
+
+    .covidprotectborder1{
+        width: 30%;
+        height: 270px;
+    }
+}
