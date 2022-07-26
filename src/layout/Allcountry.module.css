@@ -242,9 +242,7 @@ margin-top: 25px ;
     }
 
 
-    .coviditaly{
-        width: 100%;
-    }
+   
 
     .covidborder{
         margin-top: 30px;
@@ -333,7 +331,8 @@ margin-top: 25px ;
 
 
     .coviditaly{
-        font-size: 70px;
+        font-size: 20px;
+        width: 100%;
          position: relative;
          top: 999px;
          right: 390px;
