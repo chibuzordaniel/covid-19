@@ -54,12 +54,10 @@ function Allcountry () {
      })
    }, []);
 
-
-
-
     // update date
     var showdate=new Date();
      var dt=showdate.toDateString();
+     
     return(
         <div>
             <div className="container">
@@ -80,11 +78,8 @@ function Allcountry () {
 
                             <div className={AllCss.covidnumsscroll} >{ 
                                          covidSummary?.map((country, index) => 
-                                         <p style={{margin:'20px 0'}} key={country.ID} onClick={() => setCurrentIndex(index )}>{country.Country}</p>)
+                                         <p key={country.ID} onClick={() => setCurrentIndex(index )}>{country.Country}</p>)
                                     }
-                                
-                             
-
                             </div>
 
                         </div>
