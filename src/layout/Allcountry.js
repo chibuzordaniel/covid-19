@@ -9,13 +9,7 @@ import axios from '../axios';
 
 
 function Allcountry () {
-    // NewConfirmed={0}
-    // TotalConfirmed={0}
-    // NewDeaths={0}
-    // TotalDeaths={0}
-    // NewRecovered={0}
-    // TotalRecovered={0}
-    // country={'india'}
+    
 
    const [TotalConfirmed, setTotalComfirmed] = useState(0);
    const [TotalRecovered, setTotalRecovered] = useState(0);
