@@ -9,8 +9,6 @@ import axios from '../axios';
 
 
 function Allcountry () {
-    
-
    const [TotalConfirmed, setTotalComfirmed] = useState(0);
    const [TotalRecovered, setTotalRecovered] = useState(0);
    const [TotalDeaths, setTotalDeaths] = useState(0);
