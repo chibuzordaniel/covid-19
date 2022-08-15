@@ -15,7 +15,7 @@ function  Covid (){
                 <div className={CovidCss.covidprotectback} >
                     <div className={CovidCss.covidprotectflex1}>
                         <div className={CovidCss.logo13}>
-                            <img src={logo13}></img>
+                            <img src={logo13} alt="img"></img>
                         </div>
 
                         <div>
@@ -26,28 +26,28 @@ function  Covid (){
                             <div>
                                 <div className={CovidCss.covidprotectborderflex}>
                                     <div className={CovidCss.covidprotectborder1}>
-                                        <img src={logo14}  className={CovidCss.logo14}></img>
+                                        <img src={logo14}  className={CovidCss.logo14} alt="img"></img>
                                         <h3 className={CovidCss.covidwear1}>Wear a facemask</h3>
                                     </div>
 
                                     <div className={CovidCss.covidprotectborder1}>
-                                        <img src={logo15}  className={CovidCss.logo14}></img>
+                                        <img src={logo15}  className={CovidCss.logo14} alt="img"></img>
                                         <h3 className={CovidCss.covidwear1}>Don’t touch your face</h3>
                                     </div>
                                     <div className={CovidCss.covidprotectborder1}>
-                                        <img src={logo16}  className={CovidCss.logo14}></img>
+                                        <img src={logo16}  className={CovidCss.logo14} alt="img"></img>
                                         <h3 className={CovidCss.covidwear1}>Avoid hand contact</h3>
                                     </div>
                                 </div>
 
                                 <div className={CovidCss.covidprotectborderflex2}>
                                     <div className={CovidCss.covidprotectborder1}>
-                                        <img src={logo17}  className={CovidCss.logo14}></img>
+                                        <img src={logo17}  className={CovidCss.logo14} alt="img"></img>
                                         <h3 className={CovidCss.covidwear1}>Keep safe distance</h3>
                                      </div>
 
                                      <div className={CovidCss.covidprotectborder1}>
-                                        <img src={logo18}  className={CovidCss.logo14}></img>
+                                        <img src={logo18}  className={CovidCss.logo14} alt="img"></img>
                                         <h3 className={CovidCss.covidwear1}>Stay at home if you can</h3>
                                      </div>
                                 </div>
@@ -62,9 +62,7 @@ function  Covid (){
                 </div>
             </div>
         </div>
-        <div>
             <Footer />
-        </div>
     </div>
   )
 }

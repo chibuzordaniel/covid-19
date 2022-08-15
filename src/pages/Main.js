@@ -18,33 +18,26 @@ const url ="https://api.covid19api.com/summary";
     .then(data =>{
         setValue(data?.Global)
         setIsLoading(false)
-        //  TotalConfirmed;
-        //  NewConfirmed;
-        //  TotalRecovered;
-        //  TotalDeaths;
+       
       
     }) 
     }, [])
     
    return (
     <div>
-
         <div  className={MainCss.logoflex}>
-          
             <div  className={MainCss.logo2}>
-                <img src={ logo2} ></img>
+              <img src={ logo2} alt="img"></img>
             </div> 
-
             <div>
+
                 <div  className={MainCss.logo3}>
-                  <img src={ logo3} ></img>
+                  <img src={ logo3} alt="img"></img>
                 </div>
               
-            
                 <div className={MainCss.logo4}>
-                  <img src={ logo4} ></img>
+                  <img src={ logo4} alt="img" ></img>
                 </div>
-                
             </div>
         </div>
          <div className="container">
@@ -102,9 +95,7 @@ const url ="https://api.covid19api.com/summary";
          </div>
           
     
-     <div>
-       
-     </div>
+     
     <Allcountry  />
     </div>
    )

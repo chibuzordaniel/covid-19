@@ -1,7 +1,6 @@
 import FooterCss from './Footer.module.css'
-import logo19 from '../footer/logo19.svg'
 import logo21 from '../footer/logo21.svg'
-import logo22 from '../footer/logo22.svg'
+
 
 function Footer () {
     return(
@@ -20,21 +19,17 @@ function Footer () {
                         <div>
                             <div className={FooterCss.footerheaderP}>
                                 <h4  className={FooterCss.footerheader}>Contact</h4>
-                                <p> info@coronatracker.com </p>
-                                <p>Instagram <img src={logo21} className={FooterCss.logo21}></img> </p>
-                                <p>Pinterest <img src={logo21} className={FooterCss.logo21}></img></p>
-                                <p>Twitter <img src={logo21} className={FooterCss.logo21}></img></p>
-                                <p>Pinterest<img src={logo21} className={FooterCss.logo21}></img></p>
+                                <p>info@coronatracker.com </p>
+                                <p>Instagram <img src={logo21} className={FooterCss.logo21} alt="img"></img> </p>
+                                <p>Pinterest <img src={logo21} className={FooterCss.logo21} alt="img"></img></p>
+                                <p>Twitter <img src={logo21} className={FooterCss.logo21} alt="img"></img></p>
+                                <p>Pinterest<img src={logo21} className={FooterCss.logo21} alt="img"></img></p>
                             </div>
-                        
-
                         </div>
-
-                    
                     </div>
                     <div>
                         <h4 className={FooterCss.footerhead}>Join our newsletter</h4>
-                        <h3 className={FooterCss.footeremail}>Your email <img src={logo21} className={FooterCss.logo22}  ></img></h3>
+                        <h3 className={FooterCss.footeremail}>Your email <img src={logo21} className={FooterCss.logo22} alt="img"></img></h3>
                    </div>
               </div> 
                   <div className={FooterCss.footerendflex} >

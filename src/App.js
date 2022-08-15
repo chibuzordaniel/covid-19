@@ -12,7 +12,7 @@ function App(){
           <div className='covid-flex'>
           <div className='covid-flex1'>
             <div className='covid-flex2'>
-              <img src={logo1}></img>
+              <img src={logo1} alt="img" ></img>
               <h1 className='Cov19Strain'>Cov19Strain</h1>
             </div>
             <div className='covid-flex5' >

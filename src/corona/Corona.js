@@ -15,14 +15,11 @@ function Corona(){
                  </div>
 
                   <div className={CoronaCss.logo12}>
-                       <img src={logo12}></img>
+                       <img src={logo12} alt="img"></img>
                   </div>
                </div>
             </div>
-
-            <div>
-                <Covid />
-            </div>
+            <Covid />
         </div>
     )
 }
