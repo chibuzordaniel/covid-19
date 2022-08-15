@@ -1,6 +1,7 @@
 import FooterCss from './Footer.module.css'
 import logo19 from '../footer/logo19.svg'
 import logo21 from '../footer/logo21.svg'
+import logo22 from '../footer/logo22.svg'
 
 function Footer () {
     return(

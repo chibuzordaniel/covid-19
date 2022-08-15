@@ -132,9 +132,13 @@
         height: 45px;
     }
 
-    .logo21{
+    .logo22{
         width: 45px;
         height: 45px;
+        padding-left: 15px;
+        position: relative;
+        top: 23px;
+        left: 350px;
     }
 
     

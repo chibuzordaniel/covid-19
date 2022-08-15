@@ -3,7 +3,7 @@ import Corona from '../corona/Corona';
 import AllCss from './Allcountry.module.css';
 import logo9 from "./logo9.svg";
 import logo10 from "./logo10.svg";
-import logo11 from "./logo11.svg";
+import logo11 from "./logo11.svg"; 
 import axios from '../axios';
 
 
@@ -67,7 +67,7 @@ function Allcountry () {
 
                         <div className={AllCss.covidborder}>
                             <h1 className={AllCss.covidcount}>Countries</h1>
-
+    
                             <div className={AllCss.covidnumsscroll} >{ 
                                          covidSummary?.map((country, index) => 
                                          <p key={country.ID} onClick={() => setCurrentIndex(index )}>{country.Country}</p>)

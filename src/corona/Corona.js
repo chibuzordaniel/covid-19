@@ -5,7 +5,7 @@ import logo12 from  './logo12.svg'
 
 function Corona(){
     return(
-        <div>
+        <div id='SYMTOMS'>
             <div className="container">
                <div className={CoronaCss.covidcoronaflex}>
                  <div className={CoronaCss.covidsymptom}>

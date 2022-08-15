@@ -6,7 +6,7 @@ function App(){
   var showdate=new Date();
   var dt=showdate.toDateString();
   return(
-    <div>
+    <div id='HOME' >
       <div className="covid-navbar-back">
         <div className="container">
           <div className='covid-flex'>
@@ -18,14 +18,14 @@ function App(){
             <div className='covid-flex5' >
               <div className='covid-flex3'>
                 <ul className='covid-flex4'>
-                  <li className='covid-home'>HOME</li>
-                  <li>SYMPTOMS</li>
-                  <li>PROTECTION</li>
+                  <li className='covid-home'><a href='HOME'>HOME</a></li>
+                  <li > <a href='#SYMTOMS'>SYMPTOMS</a></li>
+                  <li> <a href='#PROTECTION'>PROTECTION</a> </li>
                   
                 </ul>
                 
               </div>
-              
+            
             </div>
           
           </div>

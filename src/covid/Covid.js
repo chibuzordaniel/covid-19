@@ -11,7 +11,7 @@ function  Covid (){
   return(
     <div>
         <div className="container">
-            <div  >
+            <div id='PROTECTION' >
                 <div className={CovidCss.covidprotectback} >
                     <div className={CovidCss.covidprotectflex1}>
                         <div className={CovidCss.logo13}>
