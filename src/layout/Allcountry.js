@@ -54,8 +54,8 @@ function Allcountry () {
                             <h1 className={AllCss.covidcount}>Countries</h1>
     
                             <div className={AllCss.covidnumsscroll} >{ 
-                                         covidSummary?.map((country, index) => 
-                                         <p key={country.ID} onClick={() => setCurrentIndex(index )}>{country.Country}</p>)
+                                    covidSummary?.map((country, index) => 
+                                    <p key={country.ID} onClick={() => setCurrentIndex(index )}>{country.Country}</p>)
                                     }
                             </div>
 
